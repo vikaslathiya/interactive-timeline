@@ -1,0 +1,12 @@
+.zoom_wrapper {
+    &.MuiStack-root {
+        flex-direction: row;
+        padding: 10px;
+        gap: 10px;
+
+        .MuiButtonBase-root {
+            border: 1px solid lightgray;
+            border-radius: 6px;
+        }
+    }
+}

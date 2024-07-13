@@ -1,0 +1,30 @@
+.event_wrapper {
+    position: absolute;
+    background-color: #4CAF50;
+    cursor: pointer;
+    // height: calc(100% - 51px);
+    height: auto;
+    top: 31px;
+    color: white;
+    z-index: 1;
+    padding: 6px;
+    border-radius: 5px;
+
+
+    .tooltip {
+        position: absolute;
+        background-color: #333;
+        color: white;
+        padding: 5px;
+        border-radius: 3px;
+        top: -25px;
+        left: 10px;
+        // display: none;
+    }
+
+    // &:hover {
+    //     .tooltip {
+    //         display: block;
+    //     }
+    // }
+}

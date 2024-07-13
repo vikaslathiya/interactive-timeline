@@ -1,0 +1,31 @@
+.timeline_wrapper {
+    &.MuiStack-root {
+        flex-direction: row;
+        width: 100%;
+        overflow: auto;
+        // border: 1px solid #ccc;
+        position: relative;
+        // background-color: #e9edf5;
+
+        .hour_marker {
+            border-left: 2px solid #e9edf5;
+            // padding: 10px;
+            width: 100%;
+            height: 300px;
+            flex-shrink: 0;
+
+            .hour_block {
+                padding: 6px;
+            }
+
+            .hour_block_events {
+                position: relative;
+                width: 100%;
+                height: calc(100% - 31px);
+                background-color: #e9edf5;
+                cursor: pointer;
+                display: flex;
+            }
+        }
+    }
+}
